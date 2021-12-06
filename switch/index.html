@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     a harazada coto hater letter dibu<input id="tanvir" type="text">
+    <button onclick="myfunction()">tipi maro</button>
+    <p id="demo"></p>
+    <script>
+        function myfunction(){
+            let x = document.getElementById('tanvir').value;
+            let text;
+            switch(x){
+                case 'a'||'A':
+                text = 'vowel';
+                break;
+                case 'e'||'E':
+                text = 'vowel';
+                break;
+                case 'i'||'I':
+                text = 'vowel';
+                break;
+                case 'o'||'O':
+                text = 'vowel';
+                break;
+                case 'u'||'U':
+                text = 'vowel';
+                break;
+                case 'A'||'A':
+                text = 'vowel';
+                break;
+                case 'E'||'E':
+                text = 'vowel';
+                break;
+                case 'I'||'I':
+                text = 'vowel';
+                break;
+                case 'O'||'O':
+                text = 'vowel';
+                break;
+                case 'U'||'U':
+                text = 'vowel';
+                break;
+                default:
+                    text = 'consonat';
+            }
+            document.getElementById('demo').innerHTML =text;
+        }
+    </script>
+</body>
+</html>
